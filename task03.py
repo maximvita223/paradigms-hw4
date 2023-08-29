@@ -1,3 +1,6 @@
+from functools import reduce
+
+
 def max_reducer(acc, value):
     return acc * value
 
